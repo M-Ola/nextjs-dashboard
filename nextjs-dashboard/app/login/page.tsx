@@ -1,4 +1,4 @@
-'use client';
+
 
 import AcmeLogo from '@/ui/acme-logo';
 
