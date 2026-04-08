@@ -1,4 +1,5 @@
 
+
 import { Card } from '@/ui/dashboard/cards';
 import RevenueChart from '@/ui/dashboard/revenue-chart';
 import LatestInvoices from '@/ui/dashboard/latest-invoices';
@@ -14,7 +15,7 @@ export const metadata: Metadata = {
  title: 'Dashboard',
 };
 
- 
+ export const dynamic = "force-dynamic";
 export default async function Page() {
 
   const latestInvoices = await fetchLatestInvoices();
